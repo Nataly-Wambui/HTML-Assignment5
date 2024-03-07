@@ -1,0 +1,157 @@
+body{
+    width: 1000px;
+    margin: 100px 200px;
+}
+nav{
+    display: flex;
+}
+.task{
+margin: 0% 3%;
+color: black; 
+}
+.images1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#page1{
+    display: flex;
+}
+#page1i{
+    padding-right: 200px;
+    position: relative;
+    top: 0;
+}
+#images1a{
+    display: flex;
+}
+#images2{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+#images2b{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    position: absolute; 
+    top: 100px;
+    right: 100px; 
+}
+#page2{
+    display: flex;
+}
+.images2{
+    width: 300px;
+    height: 300px;
+}
+#page3{
+    display: flex;
+}
+#images3{
+    position: relative;
+    top: 0;
+
+}
+#images4{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+#images5{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    position: absolute; 
+    top: 100px;
+    right: 100px;
+}
+#page4{
+    text-align: center;
+}
+#buttons{
+    display: flex;
+    text-align: center;
+}
+#button1{
+    border-radius: 20px 0px 0px 20px;
+}
+#button2{
+    border-radius: 0px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#button3{
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#planpage{
+    display: flex;
+}
+#button4{
+    background-color: rgb(99,99,99);
+    color: white;
+}
+#button6{
+    background-color: rgb(99,99,99);
+    color: white;
+}
+#ourteam{
+    text-align: center;
+}
+.plan{
+    margin-left: 100px;
+}
+#team{
+    display: flex;
+}
+.teams{
+    width: 150px;
+    height: 200px;
+}
+h5{
+    color: rgb(246,38,70);
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+#testimonial{
+    text-align: center;
+}
+#testimonials{
+    display: flex;
+}
+.teams2{
+    margin-left: 100px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+#lastpage{
+    display: flex;
+}
+.about{
+    margin-left: 60px;
+}
+
+@media all and (max-width:500px){
+    body{} 
+}
